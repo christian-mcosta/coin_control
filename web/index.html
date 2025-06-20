@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Projeto para gastos financeiros">
+    <meta name="author" content="Flutter" />
+    <meta name="generator" content="Flutter Web" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="coin_control">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Flutter styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <title>coin_control</title>
+    <link rel="manifest" href="manifest.json">
+    <!-- This script adds the flutter initialization JS code -->
+  </head>
+  <body>
+    <script src="flutter.js" defer></script>
+    <script>
+     window.addEventListener('load', function () {
+       FlutterLoader.load();
+     });
+    </script>
+    <script>
+      window.addEventListener('error', function (e) {
+        console.error(e.error);
+      });
+    </script>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>
